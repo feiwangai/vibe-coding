@@ -10,3 +10,17 @@ In this repository, we will create a simple dashboard center that will allow the
 - CRUD (Create, Read, Update, Delete) their learning preferences
 
 User experience and user interface is very important. We aim to create the best possible experience for the user.
+
+
+## User Interface
+
+- One page dashboard
+
+![dashboard-homepage](./mockups/dashboard-homepage.png)
+
+The layout is clean, structured, and focuses on clarity. It comprises four main areas:
+
+- Header
+- Banner Section
+- Navigation/Buttons Section
+- Dynamic Content Section (Component-based rendering): long-term goals, OKRs, learning preferences
