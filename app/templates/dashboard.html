@@ -40,62 +40,55 @@
     </header>
 
     <!-- Banner Section -->
-    <section class="relative overflow-hidden bg-gradient-to-r from-rose-500 via-purple-500 to-violet-500">
-        <!-- Decorative pattern overlay -->
-        <div class="absolute inset-0 pattern-dots opacity-30"></div>
-        
-        <!-- Decorative shapes -->
-        <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-            <!-- Circle -->
-            <div class="absolute -top-16 -left-16 w-64 h-64 bg-white/10 rounded-full blur-2xl"></div>
-            <!-- Floating shapes -->
-            <div class="absolute top-10 right-10 w-32 h-32 bg-purple-400/20 rounded-full blur-xl animate-float"></div>
-            <div class="absolute bottom-10 left-1/4 w-24 h-24 bg-rose-400/20 rounded-full blur-xl animate-float" style="animation-delay: -2s"></div>
-            <div class="absolute top-1/2 right-1/4 w-40 h-40 bg-violet-400/20 rounded-full blur-xl animate-float" style="animation-delay: -4s"></div>
-        </div>
-
-        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-            <div class="grid grid-cols-12 gap-8 items-center">
-                <!-- Left side: Key Messages -->
-                <div class="col-span-7 space-y-8">
-                    <!-- Small decorative element -->
-                    <div class="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full mb-4 border border-white/20">
-                        <svg class="w-5 h-5 text-rose-200 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-                        </svg>
-                        <span class="text-white/90 text-sm font-medium">Your Personal Growth Journey</span>
-                    </div>
-
-                    <!-- Main heading with enhanced typography -->
-                    <div class="space-y-4">
-                        <h2 class="text-5xl font-extrabold text-white tracking-tight drop-shadow-md leading-tight">
-                            Welcome to Your<br/>Personal Dashboard
+    <section class="bg-gradient-to-br from-rose-50 via-purple-50 to-violet-50 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-rose-100/20 to-purple-100/20 pattern-dots"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-white/50 to-transparent"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative">
+            <div class="bg-white/80 backdrop-blur-md rounded-2xl shadow-xl border border-gray-100/50 overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <div class="flex flex-col md:flex-row p-8 gap-8">
+                    <!-- Left Section (65-70%) -->
+                    <div class="flex-1 relative z-10">
+                        <div class="inline-flex items-center px-3 py-1 rounded-full text-sm bg-rose-50/80 text-rose-600 border border-rose-200/50 mb-6 backdrop-blur-sm">
+                            <span class="mr-1">✨</span> Your Personal Growth Journey
+                        </div>
+                        <h2 class="text-4xl font-bold mb-4 bg-gradient-to-r from-rose-600 via-purple-600 to-violet-600 bg-clip-text text-transparent">
+                            Welcome to Your Personal Dashboard
                         </h2>
-                        <p class="text-xl text-white/90 font-light leading-relaxed">
+                        <p class="text-lg text-gray-600/90 mb-6">
                             Track your goals, OKRs, and learning preferences all in one place.
-                            <span class="block mt-2 text-white/80 text-base">Transform your aspirations into achievements.</span>
+                        </p>
+                        <p class="text-base font-medium bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">
+                            Transform your aspirations into achievements.
                         </p>
                     </div>
-                </div>
-
-                <!-- Right side: Decorative Design -->
-                <div class="col-span-5 relative">
-                    <!-- Abstract geometric shapes -->
-                    <div class="relative h-[400px]">
-                        <!-- Large circle -->
-                        <div class="absolute right-0 top-1/2 transform -translate-y-1/2 w-72 h-72 rounded-full bg-gradient-to-tr from-white/10 to-white/5 backdrop-blur-sm border border-white/20"></div>
-                        
-                        <!-- Floating elements -->
-                        <div class="absolute top-10 right-20 w-32 h-32 bg-gradient-to-r from-rose-400/30 to-purple-400/30 rounded-lg rotate-45 animate-float"></div>
-                        <div class="absolute bottom-20 right-40 w-24 h-24 bg-gradient-to-r from-purple-400/30 to-violet-400/30 rounded-full animate-float" style="animation-delay: -3s"></div>
-                        
-                        <!-- Decorative lines -->
-                        <div class="absolute top-1/4 right-10 w-40 h-[1px] bg-gradient-to-r from-white/0 via-white/50 to-white/0"></div>
-                        <div class="absolute bottom-1/4 right-20 w-32 h-[1px] bg-gradient-to-r from-white/0 via-white/50 to-white/0"></div>
-                        
-                        <!-- Small dots -->
-                        <div class="absolute top-20 right-32 w-2 h-2 bg-white/50 rounded-full"></div>
-                        <div class="absolute bottom-32 right-16 w-2 h-2 bg-white/50 rounded-full"></div>
+                    <!-- Right Section (30-35%) -->
+                    <div class="flex-shrink-0 w-full md:w-1/3">
+                        <div class="grid grid-cols-2 gap-4">
+                            <!-- Growth Icon -->
+                            <div class="aspect-square bg-gradient-to-br from-rose-50/90 to-rose-100/90 rounded-xl p-4 flex items-center justify-center shadow-sm border border-rose-200/50 backdrop-blur-sm hover:shadow-md transition-shadow duration-300">
+                                <svg class="w-10 h-10 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                                </svg>
+                            </div>
+                            <!-- Security Icon -->
+                            <div class="aspect-square bg-gradient-to-br from-purple-50/90 to-purple-100/90 rounded-xl p-4 flex items-center justify-center shadow-sm border border-purple-200/50 backdrop-blur-sm hover:shadow-md transition-shadow duration-300">
+                                <svg class="w-10 h-10 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                                </svg>
+                            </div>
+                            <!-- Knowledge Icon -->
+                            <div class="aspect-square bg-gradient-to-br from-violet-50/90 to-violet-100/90 rounded-xl p-4 flex items-center justify-center shadow-sm border border-violet-200/50 backdrop-blur-sm hover:shadow-md transition-shadow duration-300">
+                                <svg class="w-10 h-10 text-violet-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                </svg>
+                            </div>
+                            <!-- Achievement Icon -->
+                            <div class="aspect-square bg-gradient-to-br from-indigo-50/90 to-indigo-100/90 rounded-xl p-4 flex items-center justify-center shadow-sm border border-indigo-200/50 backdrop-blur-sm hover:shadow-md transition-shadow duration-300">
+                                <svg class="w-10 h-10 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
